@@ -1,0 +1,136 @@
+<!---
+TurnTwister.com: An RPG turned based game.
+Made with HTML, CSS, PHP and JavaScript
+
+Programmers: Douglas Wright, Lucas Goodman, Josh Lyell
+9/16/22: Registration.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TurnTwister.com</title>
+    <link href="turntwister.css" rel="stylesheet"/>
+   
+</head>
+<body>
+
+    <div class="headerbox">
+        
+
+    </div>
+ 
+    <div class="box">
+       <form action="TurnTwister.php" method = "post">
+                <label for ='email'>
+                    <b>Enter Email:</b>
+                        <input type ='text' for = "email" name="email" id = "email" placeholder="Email" required>
+                    <div>
+        
+                    <br>
+        
+                    </div>
+                
+                </label>
+            
+            <label for = 'confirm-email'>
+                <b>Confirm Email:</b>
+                    <input type ='text' for="confirm-email" name ='confirm-email' id = "confirm-email" 
+                    placeholder="Confirm Email" required>
+
+                <div>
+
+                <br>
+
+                </div>
+
+            </label>
+
+            <label for = 'fname'>
+                <b>First Name: </b>
+                    <input type ='text' for="name" name ='name' id = "name" 
+                    placeholder="Whats your first-name?" required>
+
+                <div>
+
+                <br>
+
+                </div>
+
+            <label for = 'lname'>
+                <b>Last Name: </b>
+                    <input type ='text' for="lname" name ='lname' id = "lname" 
+                    placeholder="Whats your last-name?" required>
+    
+                <div>
+    
+                <br>
+    
+                </div>
+    
+            </label>
+
+            <label for = 'pass'>
+                <b>Enter Password: </b>
+                    <input type ='pass' for='pass' name ='password' id = "password" 
+                    placeholder="Enter Password" required>
+
+                <div>
+
+                <br>
+
+                </div>
+
+            </label>
+
+            <label for = 'pass'>
+                <b>Confirm Password: </b>
+                    <input type ='pass' for='pass' name ='password' id = "password" 
+                    placeholder="Confirm Password" required>
+
+                <div>
+
+                <br>
+
+                </div>
+
+            </label>
+
+            <label for ="Register for Game Updates?">
+                <b>Register for Game Updates? </b>
+                <input type="checkbox" id ="Register?" name = "Register?">
+            </label>
+
+            
+                <div>
+
+                <br>
+
+                </div>
+            
+            <label for="Subscribe to our website">
+                <b>Subscribe to our Website? </b>
+                <select id="Subscribe" name = "Subscribe">
+                    <option value ="Yes">Yes </option>
+                    <option value ="No">No </option>
+                </select>
+            </label>
+            
+        </form>
+        <div>
+
+        <br>
+        <br>
+
+        </div>
+     
+    
+        <section>
+            <button type="button" class="button button1"><b>Register </b></button>
+            <button type="button" class="button button2"><b>Cancel </b></button>
+            <button type="button" class="button button3"><b>Login </b></button>        
+        </section>
+    
+    </div>
+</body>
+</html>
